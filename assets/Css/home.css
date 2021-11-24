@@ -9,7 +9,7 @@
 }
 
 .sidebar {
-    font-family: Oswald, Helvetica, sans-serif;
+    font-family: 'Oswald', sans-serif;
     width: 22%;
     height: 100%;
     background-color: rgb(255, 255, 255);
@@ -37,7 +37,7 @@
 
 .container {
     background-image: url('../Images/home_page_bg_2.jpeg');
-    margin-left: 22%;
+    margin-left: 23%;
     height: 100vh;
     color: #fff;
     position: relative;
@@ -53,7 +53,8 @@
     position: absolute;
     right: 0;
     width: 100%;
-    font-family: Oswald, Helvetica, sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
 }
 
 .container .user_name {
@@ -63,18 +64,19 @@
 }
 
 .container .user_role {
-    color: rgb(0, 0, 0, 0.4);
+    color: rgba(255, 255, 255, 0.2);
+    margin-top: 3%;
 }
 
 .container .infomation {
-    margin: 10%;
-    margin-left: 25%;
+    margin-top: 3%;
+    margin-left: 35%;
     line-height: 225%;
 }
 
 .container .infomation b {
     text-decoration: underline yellow;
-    margin: 10%;
+    margin: 4%;
 }
 
 #nav {
@@ -101,10 +103,9 @@
 }
 
 .sadow {
-    background-color: black;
+    background-color: rgb(85, 82, 82, 0.1);
     position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
+    margin-left: 22%;
+    height: 100vh;
     width: 1%;
 }
