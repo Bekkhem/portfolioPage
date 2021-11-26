@@ -15,6 +15,7 @@
     width: 22%;
     background-color: #fff;
     padding-top: 20px;
+    margin-bottom: 400px;
 }
 
 .sidebar img {
@@ -61,6 +62,7 @@
 
 .icons {
     margin-top: 10px;
+    margin-bottom: 800px;
     font-size: 15px;
 }
 
@@ -74,14 +76,14 @@
 
 .icons a:hover {
     transition: 1s;
-    transform: rotate(360dge);
+    transform: rotate(360deg);
 }
 
 .sadow {
     background-color: rgb(85, 82, 82, 0.1);
     position: absolute;
     margin-left: 22%;
-    height: 100vh;
+    height: 100%;
     width: 2%;
 }
 
@@ -208,4 +210,103 @@
 
 .role_owner {
     padding-left: 60px;
+}
+
+.role_owner .bx {
+    position: absolute;
+    border: 1px solid rgb(110, 110, 110);
+    background-color: rgb(128, 128, 128, 0.6);
+    margin-left: 58%;
+}
+
+.role_owner .right {
+    margin-left: 64%;
+    background-color: rgb(128, 128, 128, 0.6);
+}
+
+.container2 {
+    display: flex;
+    margin-left: 10%;
+    width: 80%;
+    height: 250px;
+    margin-top: 6%;
+}
+
+.services {
+    text-decoration: underline yellow;
+    margin-left: 8px;
+}
+
+.S_box1 {
+    left: 10%;
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+}
+
+.S_box1 img {
+    width: 60px;
+    margin-top: 10px;
+}
+
+.S_box2 {
+    left: 0;
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+}
+
+.S_box2 img {
+    width: 60px;
+    margin-top: 40px;
+}
+
+.S_box3 {
+    left: 0;
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+}
+
+.S_box3 img {
+    height: 80px;
+    margin-top: 40px;
+}
+
+.S_box4 {
+    left: 0;
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+}
+
+.S_box4 img {
+    width: 80px;
+    margin-top: 40px;
+}
+
+.container3 {
+    display: flex;
+    margin-left: 10%;
+    width: 80%;
+    height: 250px;
+    margin-top: 6%;
+    background-color: rgb(255, 255, 255);
+}
+
+.client {
+    flex: 1;
+}
+
+.container4 {
+    display: flex;
+    margin-left: 10%;
+    width: 80%;
+    height: 250px;
+    margin-top: 6%;
+    background-color: rgb(255, 255, 255);
+}
+
+.fun_fact {
+    flex: 1;
+}
+
+.fun_fact img {
+    width: 80%;
 }
