@@ -62,7 +62,7 @@
 
 .icons {
     margin-top: 10px;
-    margin-bottom: 800px;
+    margin-bottom: 20%;
     font-size: 15px;
 }
 
@@ -285,7 +285,7 @@
     display: flex;
     margin-left: 10%;
     width: 80%;
-    height: 250px;
+    height: 150px;
     margin-top: 6%;
     background-color: rgb(255, 255, 255);
 }
@@ -294,11 +294,15 @@
     flex: 1;
 }
 
+.client img {
+    width: 80%;
+}
+
 .container4 {
     display: flex;
     margin-left: 10%;
     width: 80%;
-    height: 250px;
+    height: 200px;
     margin-top: 6%;
     background-color: rgb(255, 255, 255);
 }
@@ -308,5 +312,5 @@
 }
 
 .fun_fact img {
-    width: 80%;
+    width: 60%;
 }
