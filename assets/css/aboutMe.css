@@ -82,7 +82,7 @@
     background-color: rgb(85, 82, 82, 0.1);
     position: absolute;
     margin-left: 22%;
-    height: 245vh;
+    height: 250vh;
     width: 2%;
 }
 
@@ -306,10 +306,32 @@
     background-color: rgb(255, 255, 255);
 }
 
+.fun_fact1_3 {
+    flex: 1;
+    border: 1px solid rgba(128, 128, 128, 0.432);
+    background-color: rgb(128, 128, 128, 0.1);
+    margin-right: 25px;
+    width: 40px;
+    height: 35vh;
+    margin-bottom: 10px;
+}
+
 .fun_fact {
     flex: 1;
+    border: 1px solid rgb(223, 223, 223);
+    background-color: rgba(255, 255, 255);
+    margin-right: 25px;
+    width: 40px;
+    height: 35vh;
+    margin-bottom: 10px;
 }
 
 .fun_fact img {
-    width: 60%;
+    padding-top: 25px;
+    width: 55%;
+}
+
+.fun_fact1_3 img {
+    padding-top: 25px;
+    width: 55%;
 }
